@@ -1,13 +1,19 @@
 body {
     /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+      ADD YOUR CUSTOM STYLING HERE. 
+    ***/
+}
+
+/* This ensures the site name text is visible next to the logo */
+.site-name {
+    display: inline-block !important;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.logo {
+    display: inline-block !important;
+    vertical-align: middle;
+    max-height: 50px; /* Adjust this to make your logo fit better */
 }
